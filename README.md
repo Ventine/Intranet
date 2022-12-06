@@ -6,7 +6,7 @@ Inicio
 
 Inicio Responsive 
 
-![image](https://user-images.githubusercontent.com/19364556/206015522-6d34a55c-9897-47da-88e6-e21d9cbf60cb.png)
+![image](https://user-images.githubusercontent.com/19364556/206015914-60d44b74-8b8b-4994-88ec-91bd2dcda295.png)
 
 
 Documentos
@@ -15,7 +15,7 @@ Documentos
 
 Documentos Responsive
 
-![image](https://user-images.githubusercontent.com/19364556/206015506-e6de3bee-b1c4-4e79-880c-1268e7a0f368.png)
+![image](https://user-images.githubusercontent.com/19364556/206015940-3a17250d-18b7-4762-8e40-4ce8661ac301.png)
 
 
 Precios
@@ -25,7 +25,7 @@ Precios
 
 Precios responsive
 
-![image](https://user-images.githubusercontent.com/19364556/206015469-a878787f-5b09-46cd-9dc5-1b68a214c912.png)
+![image](https://user-images.githubusercontent.com/19364556/206016405-8ae0647f-5d6c-4b55-af0c-8589f61fe6d5.png)
 
 
 Personas
@@ -34,7 +34,7 @@ Personas
 
 Personas responsive
 
-![image](https://user-images.githubusercontent.com/19364556/206015449-d60052f8-2fe1-4406-b400-96f64f2d6871.png)
+![image](https://user-images.githubusercontent.com/19364556/206016568-8e08c28c-b7bd-42de-8fb1-b86f551d8760.png)
 
 
 Comunicados
@@ -43,7 +43,7 @@ Comunicados
 
 Comunicados responsive
 
-![image](https://user-images.githubusercontent.com/19364556/206015413-53626c1c-017f-4f56-9b5e-652e31795f3b.png)
+![image](https://user-images.githubusercontent.com/19364556/206016593-471a4f0f-73d7-4ff1-ba86-0054f8b62a14.png)
 
  
 
