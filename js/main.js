@@ -19,7 +19,7 @@ document.getElementById("Tienda").addEventListener("click", tiendaLink);
 
 function tiendaLink(){
 
-      window.location.assign("https://formfit.com.co");
+      window.location.assign("https://github.com/Ventine");
     
 }
 
