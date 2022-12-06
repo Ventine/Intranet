@@ -34,5 +34,5 @@ Comunicados
 Comunicados responsive
 ![image](https://user-images.githubusercontent.com/19364556/206015413-53626c1c-017f-4f56-9b5e-652e31795f3b.png)
 
-
+ 
 
