@@ -1,5 +1,7 @@
 Intranet
 
+Web: https://rainbow-zuccutto-cd8074.netlify.app/index.html
+
 Inicio
 
 ![image](https://user-images.githubusercontent.com/19364556/206015258-05d74451-42b5-4595-bd64-b8bb27a70504.png)
