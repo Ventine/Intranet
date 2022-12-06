@@ -1,0 +1,140 @@
+
+.main__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+.main__title-h2{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.main__title-h2:hover{
+  color: orange;
+}
+
+.main__busqueda{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.main__busqueda-h3{
+  margin: 0 20px;
+}
+
+.main__busqueda-span{
+  margin: 0 10px !important;
+}
+
+.grilla-personas{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);	
+	justify-content: space-between !important;
+	align-items: center !important;
+}
+
+.section-perfil{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 2px solid orange;
+	border-radius: 15px;
+	width: 340px;
+	background-color: white;
+	margin-top: 20px;
+	margin: 5px;
+}
+
+.section-perfil-titulo{
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 2px solid orange;
+
+}
+
+.section-perfil-img{
+	border-bottom: 2px solid orange;
+}
+
+.section-perfil-descr{
+	margin: 20px;
+}
+
+.section-perfil-img-hombre{
+	width: 310px;
+	height: 310px;
+}
+
+.section-perfil-descr-h2{
+	font-size: 22px;
+	color: black;
+}
+
+.section-perfil-descr-h3{
+	font-size: 18px;
+	font-weight: bold;
+	color: orange;
+}
+
+.section-perfil-descr-h3 span{
+	font-size: 16px;
+	font-weight: 200;
+	color: black !important;
+}
+
+#icon_fire{
+	width: 250px !important;
+	margin-top: -160px !important;
+}
+
+#icon_heart{
+	width: 350px !important;
+	margin-top: 90px !important;
+}
+
+@media (max-width: 1094px){
+	.grilla-personas{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	#icon_fire{
+	width: 200px !important;
+	margin-top: -360px !important;
+	}
+
+	#icon_heart{
+		width: 300px !important;
+		margin-top: 150px !important;
+	}
+}
+
+@media (max-width: 794px){
+	.grilla-personas{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		justify-content: center;
+		align-items: center;
+		margin-left: 90px;
+	}
+
+	.banner__icon-fire{
+		display: none;
+	}
+
+	.banner__text{
+		margin-left: 80px !important;
+	}
+
+	#icon_heart{
+		width: 300px !important;
+		margin-top: 290px !important;
+	}
+
+}
