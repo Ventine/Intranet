@@ -1,69 +1,361 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<title>Inicio</title>
-	<link rel="shortcut icon" href="assets/icono.png" type="image/x-icon">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Jhon Vargas Desarrollador Web Front-End>
+    <meta name="robots" content="index,follow">
+
+    <title>Stiven Vargas Desarrollador</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index .css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/fav-icon .png" type="image/x-icon">  
 </head>
+
 <body>
-	<header>
-		<div class="container__header">
-			<div class="logo">
-				<a href="index.html"><img class="logo-img" src="assets/ventinet.png" alt="logos"> </a> 
-			</div>
-			<div class="menu">
-				<nav>
-					<ul>
-						<li> <a href="index.html" class="active">Inicio</a> </li>
-						<li> <a href="documentos.html">Documentos</a> </li>
-						<li> <a href="Precios.html">Precios</a> </li>
-						<li> <a href="Personas.html">Personas</a> </li>
-						<li> <a href="comunicados.html">Comunicados</a> </li>
-					</ul>
-				</nav>
-			</div>
-			<span class="material-symbols-outlined" id="icon_menu">list</span>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
 
-			<div class="header__register">
-				<input type="button" class="btn__header-register" value="Cerrar sesión" name="">
-			</div>
-		</div>
-	</header>
+    <header class="header">
+        <a href="#home" class="logo">Stiven Torres</a>
 
-	<main>
-		<div class="cover">
-			<div class="text__information-cover">
-				<h1>Intranet de Ventine</h1>
-				<p>En la Intranet formfit podrás ver los documentos disponiles, los precios de las diferentes
-				prendas de la compañia, los trabajadores presentes en la compañia y los respectivos comunicados
-				que se dan diariamente en la empresa..</p>
-				<div class="buttons__cover">
-					<input type="button" class="btn__register-cover" id="Tienda" value="Tienda" name="">
-					<input type="button" class="btn__readMore-cover" id="Soporte"  value="Soporte" name="">
-				</div>
-			</div>
-			<div class="media__cover">
-				<video src="assets/animacion_cover.webm" autoplay preload="auto" playinline loop muted></video>
-			</div>
-		</div>
-		<div class="container__banner">
-			<div class="banner">
-				<div class="banner__icon-heart">
-					<img   id="icon_heart"  src="assets/heart_notify.png" alt="heart">
-				</div>
-				<div class="banner__icon-fire">
-					 <img src="assets/fire-dynamic-color.png"  id="icon_fire" alt="fire"> 
-				</div>
-				<div class="banner__text">
-					<h2>"Cuéntamelo y me olvidaré. enséñamelo y lo recordaré. involúcrame y lo aprenderé"<br> <span>Benjamin Franklin </span> </h2>
-					<a href="https://www.tinyrockets.app/blog/frases-motivadoras" target="_blank"> Leer más</a>
-				</div>
-			</div>
-		</div>
-	</main>
-	<script type="text/javascript" src="js/main.js"></script>
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#sobreMi" >Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#formacion">Formación</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/imagehome.png" alt="Ilustración hombre">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1">Hola! Soy</p>
+                    <p class="home_text-2">Stiven Vargas</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type">Desarrollador Full Stack</p>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p>Programador con nueve meses de experiencia generando páginas web y administrando la base de datos a pequeñas y medianas empresas. Creé la página web de Ferreterías Alemán y la página para la polla mundialista de Formfit Roger, además de ello estuve a cargo como auxiliar de la base de datos del Habeas Data de Colcan.</p>
+                </div>
+
+                <div class="container_button">
+                    <a target="_blank" href="https://drive.google.com/file/d/1MclTRHiQ0NwJMXZyw8Sa0yeQXZZFOlNS/view?usp=sharing" >
+                        <button class="cv_button">Descargar CV</button>
+                    </a>
+                    <a href="https://github.com/Ventine" target="_blank">
+                        <button class="contact_button">Repositorio</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/stiven-vargas-182975aa/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://github.com/Ventine" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub" class="icon-github">
+                </a>
+                <a href="https://www.instagram.com/stiven__v/" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram" class="icon-instagram">
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1>Sobre mí</h1>
+
+            <div class="container_content-sobreMi">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Stiven Vargas</span>
+                    <span class="texto_sobreMi">Soy estudiante de Tecnología en Sistematización de datos, me apasiona el mundo del desarrollo y el diseño gráfico, por lo cual estoy investigando continuamente en nuevas tecnologías y paradigmas para poder crecer personalmente y académicamente.
+                    
+                    Soy una persona que se caracteriza por su pro actividad, organización y disciplina, poseo conocimientos en diferentes paradigmas de programación, bases de datos, uso de Framework,  diseño y funcionamiento de páginas web.</span>
+                </div>
+    
+                <picture class="container_image-sobreMi" data-aos="fade-right">
+                    <img class="image_sobreMi" src="./assets/images/sobremi.png" alt="Ilustración hombre">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1>Habilidades</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades" data-aos="fade-up" data-aos-anchor-placement="center-bottom"> 
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-html.png" alt="Icono de HTML">
+                    <p>HTML 5</p>
+                </div>
+                
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-js.png" alt="Icono de JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-PHP.png" alt="Icono de PHP" style="margin-top: 30px;">
+                    <p style="margin-top: 35px;">PHP</p>
+                </div>
+
+                <div class="cards--habilidades">
+                    <img src="./assets/images/java-logo.png" alt="Icono de Java" style="margin-top: 30px;">
+                    <p style="margin-top: 35px;">Java</p>
+                </div>
+
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-git.png" alt="Icono de Git">
+                    <p>Git</p>
+                </div>
+                
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-github-hab.png" alt="Icono de GitHub">
+                    <p >Github</p>
+                </div>
+
+                <div class="cards--habilidades">
+                    <img src="./assets/images/icon-css.png" alt="Icono de CSS">
+                    <p>CSS 3</p>
+                </div>
+
+                <div class="cards--habilidades">
+                    <img src="./assets/images/mysql-icon.png" alt="Icono de My SQL"  style="margin-top: 30px;">
+                    <p style="margin-top: 35px;">My SQL</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1>Formación</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-ud" src="./assets/images/Escudo_UD.svg.png" alt="Logo - Universidad Distrital">
+                    <div class="container_texto--formacion">
+                        <p>Tecnologia en sistematización de datos</p>
+                        <p>2019 - En curso</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <img class="logo-data" src="./assets/images/ic-lk.png" alt="Logo - Linkdln">
+                    <div class="container_texto--formacion">
+                        <p>Data Analyst</p>
+                        <p>2022</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-web" src="./assets/images/icono alicant.png" alt="Logo - Internacional">
+                    <div class="container_texto--formacion">
+                        <p>DESARROLLO WEB - FRONTEND WEB DEVELOPER</p>
+                        <p>2022</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1>Proyectos</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos">
+                <div class="cards--proyectos card_Polla" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-polla.png" alt="Proyecto: Polla Formfit">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2>Polla del mundial</h2>
+                        <p>La polla del mundial consiste hacer un pronostico de los equipos que pasaran de cada fase
+                        hasta llegar a adivinar el campeón del mundo.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://pollaformfit.000webhostapp.com" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/Ventine/Polla_Qatar_2022" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_Social" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-social.png" alt="Proyecto: Social">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2>Social Media</h2>
+                        <p>Replica de la red social Facebook, se puede modifcar el color, tamaño de letra y pagina, con  funcionalidades como busqueda de chat y notificaciones.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://funny-biscuit-e5ecea.netlify.app/#" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/Ventine/SocialMediaHome" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_print" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-print.png" alt="Proyecto: Intranet">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2>Intranet</h2>
+                        <p>Una interfaz de intranet muy minimalista, en la cual tiene precios, documentos y comunicados,
+                        además de ello mensajes motivacionales para los colaboradores de la empresa.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://rainbow-zuccutto-cd8074.netlify.app" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/Ventine/Intranet" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 class="contacto_h1">Contacto</h1>
+
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    
+                <div class="container--contacto">
+                    <div class="container_text--contacto">
+                        <p>Completa el siguiente formulario y me pondré en contacto contigo.</p>
+                    </div>
+    
+                    <form id="form" class="form-contact" name="contacto-portafolio" netlify>
+                        <input id="nombre" type="text" name="name" placeholder="Nombre" required>
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input id="asunto" type="text" name="affair" placeholder="Asunto" required>
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje" required></textarea>
+    
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="link_home">
+                <a href="#home">Stiven Vargas</a>
+            </div>
+
+            <div class="container_links--footer">
+                <a class="link-nav" href="#home">Home</a>
+                <a class="link-nav" href="#sobreMi">Sobre mí</a>
+                <a class="link-nav" href="#habilidades">Habilidades</a>
+                <a class="link-nav" href="#formacion">Formación</a>
+                <a class="link-nav" href="#proyectos">Proyectos</a>
+                <a class="link-nav" href="#contacto">Contacto</a>
+            </div>
+
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/stiven-vargas-182975aa/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/Ventine" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/stiven__v/" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram"">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright ©</span>
+                <span>by</span>
+                <span>Stiven Vargas</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./script.js"></script>
 </body>
 </html>
